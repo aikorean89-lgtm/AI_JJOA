@@ -21,7 +21,7 @@ if api_key:
     
     # 쪼아쌤이 AI Studio에서 쓴 프롬프트나 설정을 여기에 넣는 거야.
     # 지금은 기본 모델로 설정할게.
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-1.5-flash')
 
     # 사용자가 입력하는 곳
     user_input = st.text_input("질문을 입력하세요:")
